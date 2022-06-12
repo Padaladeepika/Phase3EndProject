@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
 public class EndToEndTest {
 	
 	Response response;
-	String BaseURI = "http://18.215.150.59:8088/employees";
+	String BaseURI = "http://3.86.84.55:8088/employees";
 
 	@Test
 	public void test1() {
@@ -109,6 +109,4 @@ public Response GetMethod(int EmpId) {
 		return response;
 }
 }
-
-
 
